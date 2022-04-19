@@ -26,10 +26,10 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         if let userPickedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
             imageView.image = userPickedImage
             guard let ciImage = CIImage(image: userPickedImage) else {
-                fatalError("Could not convert to CIImage")
+                fatalError("Could not convert UIImage unti CIImage")
             }
-            
         }
+        imagePicker.dismiss(animated: true, completion: nil)
     }
     
     func detect(image: CIImage) {
