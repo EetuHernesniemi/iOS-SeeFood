@@ -13,6 +13,7 @@
 		3C2982A8280EC8DD0081F3F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2982A6280EC8DD0081F3F1 /* Main.storyboard */; };
 		3C2982AA280EC8E00081F3F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C2982A9280EC8E00081F3F1 /* Assets.xcassets */; };
 		3C2982AD280EC8E00081F3F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2982AB280EC8E00081F3F1 /* LaunchScreen.storyboard */; };
+		3C2982B5280ECD050081F3F1 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3C2982B4280ECD050081F3F1 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3C2982A9280EC8E00081F3F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C2982AC280EC8E00081F3F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C2982AE280EC8E00081F3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C2982B4280ECD050081F3F1 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				3C2982A9280EC8E00081F3F1 /* Assets.xcassets */,
 				3C2982AB280EC8E00081F3F1 /* LaunchScreen.storyboard */,
 				3C2982AE280EC8E00081F3F1 /* Info.plist */,
+				3C2982B4280ECD050081F3F1 /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C2982A5280EC8DD0081F3F1 /* ViewController.swift in Sources */,
+				3C2982B5280ECD050081F3F1 /* Inceptionv3.mlmodel in Sources */,
 				3C2982A1280EC8DD0081F3F1 /* AppDelegate.swift in Sources */,
 				3C2982A3280EC8DD0081F3F1 /* SceneDelegate.swift in Sources */,
 			);
